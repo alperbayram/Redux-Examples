@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Error(message) {
+function Error(error) {
     return (
         <div style={{fontSize:16, padding:15}}>
-            {message}
+            {error.message}
         </div>
     )
 }
