@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap");
+
+.container {
+  width: 400px;
+  background-color: rgb(255, 179, 87);
+  padding: 20px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: gray;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  border-top: 2px;
+  padding: 10px 0;
+}
+.btn > button {
+  padding: 5px;
+  width: 80%;
+  background-color: coral;
+}
+.deletebtn {
+  width: 18px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  background-color: coral;
+}
+
+.edit{
+  display:flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.edit > span:first-child {
+  padding-right: 5px;
+  align-items: center;
+}
+.edit > span:first-child:hover {
+ text-decoration: underline;
+}
